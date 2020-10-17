@@ -5,18 +5,18 @@ Scrape aliexpress orders to excel and publish them at the web for your use
 
 #### 1. Install TamperMonkey to scrape orders
 Tampermonkey is a userscript manager. Download and install: https://www.tampermonkey.net/  
-Install the userscript [Aliexpress.js](https://github.com/Bolukan/AliexpressOrdersBrowser/blob/master/src/Tampermonkey/Aliexpress_items.js) to scrape your order info. Just select the RAW option in github to install.  
+Install the userscript [Aliexpress.js](../blob/master/src/Tampermonkey/Aliexpress_items.js) to scrape your order info. Just select the RAW option in github to install.  
 Open https://trade.aliexpress.com/orderList.htm to check the script.  
 Do you see a button 'LOAD'? YEAH, you just finished step 1!  
 
 #### 2. Install webpage to show orders
-Put [aliorders.html](https://github.com/Bolukan/AliexpressOrdersBrowser/blob/master/src/html/aliorders.html) in the directory of your webserver.  
+Put [aliorders.html](../blob/master/src/html/aliorders.html) in the directory of your webserver.  
 Or somewhere else and upload the file after each update.  
-I also supplied my [favicon.ico](https://github.com/Bolukan/AliexpressOrdersBrowser/blob/master/src/html/favicon.ico)  
+I also supplied my [favicon.ico](../blob/master/src/html/favicon.ico)  
 Files ready at your webserver. Try! YEAH, you just finished step 2!  
 
 #### 3. An Excel file
-Download the excel template [AliExpress.xlsm](https://github.com/Bolukan/AliexpressOrdersBrowser/blob/master/src/Excel/AliExpress.xlsm)  
+Download the excel template [AliExpress.xlsm](../blob/master/src/Excel/AliExpress.xlsm)  
 Open it. Yes, it contains macros to manipulate the webpage. And to cache images locally if you want to use them within excel (optional)  
 
 Select worksheet MACRO  
